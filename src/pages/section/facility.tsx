@@ -6,7 +6,7 @@ export default function Facility() {
       <h2 className="mb-8 text-4xl text-center font-extrabold text-gray-900 dark:text-white">
         Facilities
       </h2>
-      <div className="flex gap-4 justify-between">
+      <div className="flex gap-4 justify-between flex-col md:flex-row ">
         <div className="px-4">
           <p>
             Having adequate facilities is crucial for a productive and efficient
@@ -29,14 +29,14 @@ export default function Facility() {
             autoPlay={true}
             interval={3000}
           >
-            <div className="rounded-lg w-52 h-48 p-4 shadow-xl border ">
+            <div className="rounded-lg max-w-[208px] h-48 p-4 shadow-xl border ">
               <h1 className="text-sm font-semibold">Powerful Computers</h1>
               <p className="text-xs">
                 Experience blazing-fast performance with our high-powered
                 computers.
               </p>
             </div>
-            <div className="rounded-lg w-52 h-48 p-4 shadow-xl border ">
+            <div className="rounded-lg max-w-[208px] h-48 p-4 shadow-xl border ">
               <h1 className="text-sm font-semibold">
                 Coding Tools and Software
               </h1>
@@ -45,21 +45,21 @@ export default function Facility() {
                 editors, compilers, and debugging tools.
               </p>
             </div>
-            <div className="rounded-lg w-52 h-48 p-4 shadow-xl border ">
+            <div className="rounded-lg max-w-[208px] h-48 p-4 shadow-xl border ">
               <h1 className="text-sm font-semibold">High-Speed Internet</h1>
               <p className="text-xs">
                 Stay connected with our high-speed internet for seamless online
                 activities.
               </p>
             </div>
-            <div className="rounded-lg w-52 h-48 p-4 shadow-xl border ">
+            <div className="rounded-lg max-w-[208px] h-48 p-4 shadow-xl border ">
               <h1 className="text-sm font-semibold">Comfortable Environment</h1>
               <p className="text-xs">
                 Enjoy a comfortable and conducive environment for focused
                 learning.
               </p>
             </div>
-            <div className="rounded-lg w-52 h-48 p-4 shadow-xl border ">
+            <div className="rounded-lg max-w-[208px] h-48 p-4 shadow-xl border ">
               <h1 className="text-sm font-semibold">Advanced Projectors</h1>
               <p className="text-xs">
                 Enhance visual learning with our state-of-the-art projectors.

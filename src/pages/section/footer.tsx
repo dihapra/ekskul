@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="mx-auto max-w-screen-xl">
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          <span className="text-sm text-sky-900 sm:text-center dark:text-sky-900">
             © 2023{" "}
             <Link href="#" className="hover:underline">
               Ekskul Koding
@@ -20,7 +20,7 @@ export default function Footer() {
             >
               <svg
                 className="w-5 h-5"
-                fill="currentColor"
+                fill="#1a365d"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
@@ -37,7 +37,7 @@ export default function Footer() {
             >
               <svg
                 className="w-5 h-5"
-                fill="currentColor"
+                fill="#1a365d"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
@@ -54,7 +54,7 @@ export default function Footer() {
             >
               <svg
                 className="w-5 h-5"
-                fill="currentColor"
+                fill="#1a365d"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
@@ -67,7 +67,7 @@ export default function Footer() {
             >
               <svg
                 className="w-5 h-5"
-                fill="currentColor"
+                fill="#1a365d"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
@@ -84,7 +84,7 @@ export default function Footer() {
             >
               <svg
                 className="w-5 h-5"
-                fill="currentColor"
+                fill="#1a365d"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
