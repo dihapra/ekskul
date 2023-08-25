@@ -58,25 +58,9 @@ export default function Navbar() {
             <li>
               <Link
                 className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:text-sky-800 md:hover:bg-transparent"
-                href="/profil"
+                href="/introduction"
               >
-                Profil
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:text-sky-800 md:hover:bg-transparent"
-                href="/visi-misi"
-              >
-                Visi Misi
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:text-sky-800 md:hover:bg-transparent"
-                href="/tujuan"
-              >
-                Tujuan
+                Pengenalan
               </Link>
             </li>
           </ul>
