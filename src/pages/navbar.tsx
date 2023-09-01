@@ -49,7 +49,7 @@ export default function Navbar() {
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
             <li>
               <Link
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:text-sky-800 md:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 font-bold text-gray-900 rounded hover:text-sky-800 md:hover:bg-transparent"
                 href="/dashboard"
               >
                 Dashboard
@@ -57,10 +57,26 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:text-sky-800 md:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 font-bold text-gray-900 rounded hover:text-sky-800 md:hover:bg-transparent"
                 href="/introduction"
               >
                 Pengenalan
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="block py-2 pl-3 pr-4 font-bold text-gray-900 rounded hover:text-sky-800 md:hover:bg-transparent"
+                href="/smp"
+              >
+                SMP
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="block py-2 pl-3 pr-4 font-bold text-gray-900 rounded hover:text-sky-800 md:hover:bg-transparent"
+                href="/sma"
+              >
+                SMA
               </Link>
             </li>
           </ul>
